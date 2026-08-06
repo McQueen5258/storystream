@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Search, Menu, X, BookOpen, Archive, Github, Globe } from 'lucide-react';
+import { Search, Menu, X, BookOpen, Archive, Github, Globe, Linkedin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { LanguageCode } from '../types';
 
@@ -180,13 +180,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
              <div>
               <h3 className="text-sm font-semibold text-slate-900 tracking-wider uppercase mb-4">{t('connect')}</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-slate-400 hover:text-slate-900">
+                <a href="https://github.com/mcqueen5258" className="text-slate-400 hover:text-slate-900">
                   <span className="sr-only">GitHub</span>
                   <Github size={20} />
                 </a>
-                <a href="/rss.xml" className="text-slate-400 hover:text-orange-500">
+                {/* <a href="/rss.xml" className="text-slate-400 hover:text-orange-500">
                   <span className="sr-only">RSS</span>
                   <Archive size={20} />
+                </a> */}
+                 <a href="https://www.linkedin.com/in/eric-uwizeye-a97218366" className="text-slate-400 hover:text-orange-500">
+                  <span className="sr-only">LinkedIn</span>
+                  <Linkedin size={20} />
                 </a>
               </div>
             </div>
