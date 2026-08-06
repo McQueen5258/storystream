@@ -1,67 +1,15 @@
 [
-  {
-    "id": "intro",
-    "slug": "introducing-storystream",
-    "title": "Introducing StoryStream",
-    "date": "2025-05-15",
-    "summary": "A deep dive into why we built a pure frontend React markdown blog engine.",
-    "cover": "https://images.unsplash.com/photo-1499750310159-5b5f22693851?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "tags": ["meta", "react", "blogging"],
-    "category": "Engineering",
-    "language": "en",
-    "readingTime": 3,
-    "path": "/content/stories/introducing-storystream.md"
-  },
-  {
-    "id": "mountain-hike",
-    "slug": "mountain-morning",
-    "title": "A Morning in the Mountains",
-    "date": "2025-06-02",
-    "summary": "Foggy peaks, hot coffee, and the silence of high altitude nature.",
-    "cover": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "tags": ["travel", "nature", "photography"],
-    "category": "Life",
-    "language": "en",
-    "readingTime": 5,
-    "path": "/content/stories/mountain-morning.md"
-  },
-  {
-    "id": "coding-patterns",
-    "slug": "react-patterns-2025",
-    "title": "React Patterns in 2025",
-    "date": "2025-06-10",
-    "summary": "How React hooks and server components have evolved over the years.",
-    "cover": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "tags": ["tech", "code", "tutorial"],
-    "category": "Engineering",
-    "language": "en",
-    "readingTime": 8,
-    "path": "/content/stories/react-patterns-2025.md"
-  },
-  {
-    "id": "bonjour",
-    "slug": "bonjour-monde",
-    "title": "Bonjour le Monde",
-    "date": "2025-07-14",
-    "summary": "Une introduction à StoryStream en français. La vie est belle à Paris.",
-    "cover": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "tags": ["voyage", "vie"],
-    "category": "Life",
-    "language": "fr",
-    "readingTime": 2,
-    "path": "/content/stories/bonjour-monde.md"
-  },
-  {
-    "id": "nihao",
-    "slug": "nihao-shijie",
-    "title": "你好，世界",
-    "date": "2025-08-08",
-    "summary": "这是一个中文故事示例。探索 React 与 Markdown 的结合之美。",
-    "cover": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    {
+    "id": "patch_package_cn",
+    "slug": "patch-package-cn",
+    "title": "工作中学到新知识之patch-package",
+    "date": "2026-01-13",
+    "summary": "这是一个在工作中学习和探索到的新知识。",
+    "cover": "https://res.cloudinary.com/hn5s2xle/image/upload/v1786051697/freelance-work-7308505_xcenwk.png",
     "tags": ["技术", "随笔"],
-    "category": "Life",
+    "category": "Engineering",
     "language": "zh",
     "readingTime": 4,
-    "path": "/content/stories/nihao-shijie.md"
+    "path": "/content/stories/patch-package-cn.md"
   }
 ]
