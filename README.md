@@ -1,20 +1,66 @@
-<!-- <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# StoryStream
 
-# Run and deploy your AI Studio app
+A multilingual digital garden for thoughts, stories, and code.
 
-This contains everything you need to run your app locally.
+Built as a frontend-focused personal project for publishing and exploring Markdown-based content across multiple languages.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Xg-8F6BdJ-yAf5qU-4r3rxTYt8povm8e
+**[View Live Site →](https://eric-storystream.vercel.app)**
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Markdown-based stories with frontmatter metadata
+- English, Chinese, and French interface support
+- Story browsing with pagination
+- Tag and category filtering
+- Search across titles, summaries, and tags
+- Story archive
+- Draft and language-aware content filtering
+- Responsive web interface
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev` -->
+- React
+- TypeScript
+- Vite
+- React Router
+- Tailwind CSS
+- React Markdown
+- remark-gfm
+- js-yaml
+
+## Architecture
+
+StoryStream is a frontend-only content application built around a Markdown-driven content layer.
+
+Stories are stored as Markdown files and exposed through a generated content index. A dedicated content service handles loading, filtering, pagination, search, tags, categories, and archive data.
+
+Application responsibilities are separated into:
+
+- `pages/` — route-level screens
+- `components/` — reusable UI
+- `contexts/` — shared application state such as language
+- `services/` — content access and filtering
+- `utils/` — Markdown/frontmatter utilities
+- `public/content/` — Markdown story content
+
+Language preference is managed through React context and persisted locally in the browser.
+
+## Running Locally
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Setup
+
+```bash
+git clone https://github.com/McQueen5258/storystream.git
+cd storystream
+npm install
+npm run dev
+Then open the local Vite development URL shown in your terminal.
+```
+## Project Status
+Active personal project.
+StoryStream is also where I publish and experiment with ideas around writing, frontend development, and multilingual content experiences.
