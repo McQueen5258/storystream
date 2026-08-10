@@ -54,6 +54,7 @@ Language preference is managed through React context and persisted locally in th
 
 ### Setup
 
+```md
 ```bash
 git clone https://github.com/McQueen5258/storystream.git
 cd storystream
