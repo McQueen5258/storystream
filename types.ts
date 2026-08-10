@@ -15,8 +15,7 @@ export interface StoryMetadata {
   readingTime?: number;
   wordCount?: number;
   isDraft: boolean;
-  // In a real file-fetch scenario, this might not be here, 
-  // but for the demo we simulate content availability.
+  // Populated when a story's Markdown body is loaded.
   content?: string; 
 }
 
