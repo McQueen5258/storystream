@@ -6,6 +6,8 @@ Built as a frontend-focused personal project for publishing and exploring Markdo
 
 **[View Live Site →](https://eric-storystream.vercel.app)**
 
+[![StoryStream home page](docs/screenshots/storystream-home.png)](https://eric-storystream.vercel.app)
+
 ## Features
 
 - Markdown-based stories with frontmatter metadata
@@ -45,6 +47,10 @@ Application responsibilities are separated into:
 
 Language preference is managed through React context and persisted locally in the browser.
 
+## Preview
+
+![Story detail view with Markdown content](docs/screenshots/storystream-story.png)
+
 ## Running Locally
 
 ### Prerequisites
@@ -54,14 +60,17 @@ Language preference is managed through React context and persisted locally in th
 
 ### Setup
 
-```md
 ```bash
 git clone https://github.com/McQueen5258/storystream.git
 cd storystream
 npm install
 npm run dev
-Then open the local Vite development URL shown in your terminal.
 ```
+
+Then open the local Vite development URL shown in your terminal.
+
 ## Project Status
+
 Active personal project.
+
 StoryStream is also where I publish and experiment with ideas around writing, frontend development, and multilingual content experiences.
